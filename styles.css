@@ -143,21 +143,12 @@ p.paragraph {
 
 
 button:hover {
-    /* Make the button look different when the user hovers over it */
+    
 }
 
-/*** header ***
-  
-  Purpose:
-  - Add style rules for your website's header section
 
-  When To Modify:
-  - [X] Project 3 (REQUIRED FEATURE) 
-  - [ ] Project 4 (REQUIRED FEATURE) 
-  - [ ] Any time after
-***/
 
-.header-container { /* Example A: This styles elements with class="header" */
+.header-container { 
   padding-top: 20px;
   text-align: center;
   display: flex;
@@ -188,24 +179,16 @@ button:hover {
   font-size: large;
 }
 
-/*** footer ***
-  
-  Purpose:
-  - Add style rules for your website's footer section
 
-  When To Modify:
-  - [ ] Project 3 (STRETCH FEATURE) 
-  - [ ] Any time after
-***/
 
-.footer { /* Example B: This styles elements with class="footer" */
+.footer { 
     
 }
 
-/*** Navbar [PLACEHOLDER] [ADDED IN UNIT 4] ***/
+
 
 .navbar ul {
-    z-index: 1000; /* Ensures the navbar is on top of other elements */
+    z-index: 1000;
     list-style-type: none;
     overflow: hidden;
     position: fixed;
@@ -231,45 +214,6 @@ button:hover {
 .navbar ul li a:hover {
     color: red;
 }
-
-
-/*** About Section ***
-  
-  Purpose:
-  - Add style rules for your website's About section
-
-  When To Modify:
-  - [ ] Project 3 (OPTIONAL)
-  - [ ] Project 4 (STRETCH FEATURE) 
-  - [ ] Any time after
-***/
-
-
-/*** Schedule Section ***
-  
-  Purpose:
-  - Add style rules for your website's Schedule section
-
-  When To Modify:
-  - [ ] Project 3 (OPTIONAL)
-  - [ ] Project 4 (STRETCH FEATURE) 
-  - [ ] Any time after
-***/
-
-
-/*** Links Section ***
-  
-  Purpose:
-  - Add style rules for your website's Links section
-
-  When To Modify:
-  - [ ] Project 3 (OPTIONAL)
-  - [ ] Project 4 (STRETCH FEATURE) 
-  - [ ] Any time after
-***/
-
-
-/*** RSVP [PLACEHOLDER] [ADDED IN UNIT 6] ***/
 
 .error {
   border-style: solid;
