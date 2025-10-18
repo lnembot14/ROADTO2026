@@ -1,12 +1,3 @@
-/*** VSCodeEDU preview fix 
-
-  Purpose:
-  - Fix VSCodeEDU issue that causes a white border to show around
-    the preview window
-
-  When To Modify:
-  - If you change the background color of your webpage, you may need to update this rule too.
-***/
 
 /*** body ***
   
@@ -38,16 +29,7 @@ html, body {
   margin-left: 25px;
 }
 
-/*** Text ***
-  
-  Purpose: 
-  - Add style rules for headings (h1-6),
-    paragraphs (p), links (a), and buttons
 
-  When To Modify:
-  - [X] Project 3 (REQUIRED FEATURE) 
-  - [ ] Any time after
-***/
 
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -388,16 +370,7 @@ body.dark-mode {
   color: purple;
 }
 
-/*** Custom Colors (OPTIONAL) ***
-  
-  Purpose:
-  - Use CSS variables to define custom colors for your website
-  - To get you started, we've provided the color scheme used in our example site.
-  - To reference a color variable in your css, use var(--variable-name) in place of a color value
 
-  When To Modify:
-  - [ ] Any time (OPTIONAL)
-***/
 
 :root {
     /* Light Mode */
