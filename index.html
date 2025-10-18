@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <title> World Cup 2026 </title>
+        <link rel="icon" href="img\pngtree-fifa-world-cup-trophy-png-image_6477012.png">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <style>
+            
+        </style>
+    </head>
+    
+    <body>
+    
+        <!-- navbar [PLACEHOLDER] [ADDED IN UNIT 4] -->
+         <div class="navbar">
+    <ul>
+        <li><a href="#About">Event</a></li>
+        <li><a href="#Schedule">Schedule</a></li>
+        <li><a href="#Timeline">Timeline</a></li>
+        <li><a href="#LinksPage">Links</a></li>
+        <li><button id="theme-button" >Toggle Mode</button></li>
+        </ul>
+    </div>
+
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+        <div class = "header-container">
+            <div class = "header-img">
+                <img src="img/pngtree-fifa-world-cup-trophy-png-image_6477012.png"/>
+            </div>
+            <div class = "header-item">
+                <h1>ROADTO2026</h1>
+                <h2>U.S.A, Canada, Mexico: Destination,<span id= "special-character"> Futbol.</span> </h2>
+            </div>
+            <div class = "header-item">
+                <button class = "header-button">About</button>
+                <button class = "header-button">Reminder Sign Up</button>
+            </div>
+        </div>
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+        <div class="content-page">
+        <div id="About">
+        <h2 >About the Event</h2>
+        <iframe width = 400px; height = 250px; src = "https://www.youtube.com/embed/dROpJfkwj8k?si=FM8ZZ4Acd1a1aZHv" ></iframe>
+        <p class="paragraph" >Welcome to ROADTO2026 your hub for everything FIFA World Cup 2026! 
+            For the next couple of months this website will give you eveyrthing you need 
+            to know about next year's world cup in Canada, Mexico and specifically the U.S.A
+        </p>
+        </div> 
+
+        <h3></h3>
+        <h4>ROADTO2026 Contents</h4>
+        <ul class = "custom_bullets">
+            <li> <b>World Cup 2026:</b> <i>Storylines</i></li>
+            <li> <b>Host Countries</b> <i>Which country should you visit? </i></li>
+            <li> <b>Winners</b> <i>Our prediction...</i></li>
+        </ul>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <div id="Schedule">
+        <h2 >Event Schedule</h2>
+
+        <img alt="Kylian Mbappe and Lamine Yamal" src="img/2ab98fa1f88cbd42dd2df2416b038b32.webp" style="width: 300px;"/>
+        <h3>Countdown to the #FIFA2026 World Cup</h3>
+        <p class="paragraph">A live countdown from any where, at any time, in any place to remind you how close we
+            are to the 2026 World Cup!
+        </p>
+        </div>
+            
+        <div id="Timeline">
+        <img alt="Zinedine Zidane holding World Cup trophy" src="img\180601162721-zidane-world-cup.jpg" style = "width: 300px;"/>
+        <h3>World Cup Timeline</h3>
+        <p class ="paragraph">Past winners, iconic moments and everything in between. Presented in chronological order.</p>
+        </div>
+
+        <div id="Hosts">
+        <img alt="Flags of USA, Canada and Mexico" src="img\DKLCUS74T5ITTMR62K4LAACLVE.avif" style = "width: 300px;"/>
+        <h3>Host Country Breakdown</h3>
+        <p class="paragraph">Everything you need to know about the three countries hosting the tournament from tourist attractions
+            to local events in the area
+        </p>
+        </div>
+
+    <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] -->
+    <div id="rsvp">
+        <h2 id="rsvp">RSVP</h2>
+        <div class="rsvp-container">
+        <div class="rsvp-para">
+            <p>Do you want to be the first to know about everyhting #WORLDCUP2026? If so, you need to join our legacy email list. Once signed up you'll get access to exclusives like reduced ticket prices, meal plans and tourist attractions! Please enter your name and email down below to sign up</p>
+        </div>
+        <div class="rsvp-participants">
+            <p>🎟️ Doug Terrier has cemented his Legacy.</p>
+            <p>🎟️ Amethest Cancha has cemented his Legacy.</p>
+            <p>🎟️ Tobin Montreal has cemented his Legacy</p>
+            <div class="participants">
+            </div>
+        </div>
+        </div>
+
+        <!--- Sign RSVP Form --->
+        <div class="form-container">
+            <form id="rsvp-form" title="rsvp-form">
+                <label for="fname">First Name:</label>
+                <input id="fname" type="text" >
+
+                <label for="lname">Last Name:</label>
+                <input id="lname" type="text" >
+                
+                <label for="gmail">Email:</label>
+                <input id="gmail" type="email" >
+
+            </form>
+            <button id="rsvp-button" type ="button"> Submit </button>
+        </div>      
+    </div>
+
+        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] -->
+         <!-- success modal
+
+        Purpose:
+        - Modal that appears when a user successfully signs up for the event
+        - Contains a personalized message and image
+
+        When To Modify:
+        - [ ] Project 9 (REQUIRED FEATURE)
+        - [ ] Project 9 (STRETCH FEATURE) 
+        - [ ] Any time after
+        --> 
+
+        <div id="success-modal" class="modal">
+            <div class="modal-container">
+                <div id="modal-item">
+                    <p id = "modal-text">Legacy: Cemented!<br>
+                        Congartulations you have now signed up to be a part of the greatest world cup of all time! Gather 
+                        your friends and have some fun!
+                    </p>
+                </div>
+                <div id="modal-item">
+                    <img id = "modal-image" alt="World Cup Trophy animation" src= "img/pngtree-fifa-world-cup-trophy-png-image_6477012.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <div id="LinksPage">
+        <h2>Links</h2>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <a class="block" href="https://youtu.be/UeTOW5exFmE?si=x1d535MWKK9pyUng">
+            <article>
+                <h3>Informational Video</h3>
+                <p>FIFA's official video about the World Cup</p>
+            </article>
+        </a>
+
+        
+        <a class="block" href="https://www.fifa.com/en/tournaments/mens/worldcup">
+            <article>
+                <h3>Article</Article></h3>
+                <p>FIFA's exclusive article about what you can expect for next year's World Cup</p>
+            </article>
+        </a>
+        </div>
+        </div>
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+    <script src="index.js"></script>
+    </body>
+</html>
