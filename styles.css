@@ -109,26 +109,23 @@ button {
     vertical-align: middle;
 }
 
-a:visited{
-  color: purple;
-}
-
-a:hover{
-  color: green;
-}
 
 p.paragraph {
     font-family: 'Montserrat', sans-serif;
 }
 
 
-
+.photo-gallery{
+  text-align: center;
+}
 
 button:hover {
     
 }
 
-
+.countdown{
+  text-align: center;
+}
 
 .header-container { 
   padding-top: 20px;
