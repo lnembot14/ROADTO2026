@@ -1,14 +1,4 @@
-/*** Dark Mode ***
-  
-  Purpose:
-  - Use this starter code to add a dark mode feature to your website.
 
-  When To Modify:
-  - [ ] Project 5 (REQUIRED FEATURE) 
-  - [ ] Any time after
-***/
-
-// Step 1: Select the theme button
 const toggleButton = document.getElementById("theme-button");
 
 // Step 2: Write the callback function
@@ -49,18 +39,7 @@ const legacy_button = document.getElementById('rsvp-button')
     rsvpList.appendChild(newParagraph);
 }
 
-/*** Form Validation [PLACEHOLDER] [ADDED IN UNIT 7] ***/
-/*** Form Validation ***
-  
-  Purpose:
-  - Prevents invalid form submissions from being added to the list of participants.
 
-  When To Modify:
-  - [ ] Project 7 (REQUIRED FEATURE)
-  - [ ] Project 7 (STRETCH FEATURE)
-  - [ ] Project 9 (REQUIRED FEATURE)
-  - [ ] Any time between / after
-***/
 
 // Step 1: We actually don't need to select the form button again -- we already did it in the RSVP code above.
 
@@ -114,24 +93,21 @@ legacy_button.addEventListener("click", validateForm);
   Purpose:
   - Use this starter code to add a pop-up modal to your website.
 
-  When To Modify:
-  - [ ] Project 9 (REQUIRED FEATURE)
-  - [ ] Project 9 (STRETCH FEATURE)
-  - [ ] Any time after
+  
 ***/
 
 const toggleModal = (person) => {
     let modal = document.getElementById("success-modal"); // TODO
     let modalContent = document.getElementById("modal-text")
     
-    // TODO: Update modal display to flex
+    
     modal.style.display = "flex"
     
 
-    // TODO: Update modal text to personalized message
+    
     modalContent.textContent = "Thanks for RSVP'ing " + person.name + " can't wait to see you on the field!"
 
-    // Set modal timeout to 5 seconds
+
     let intervalId = setInterval(animateImage, 500)
     setTimeout(() =>{
       modal.style.display = "none"
@@ -140,7 +116,6 @@ const toggleModal = (person) => {
     
 }
 
-// TODO: animation variables and animateImage() function
 let rotateFactor = 0;
 
 let modalImage = document.getElementById("modal-image")
