@@ -46,14 +46,6 @@ h2 {
     color: #1E293B;
 }
 
-h3 {
-    
-}
-
-h4 {
-    
-}
-
 p {
     color:#475569
 }
@@ -75,10 +67,6 @@ p {
   content: "⚽️"
 }
 
-a,
-a * {
-    
-}
 
 button {
     /* Example Style, replace with your own! */
@@ -119,9 +107,7 @@ p.paragraph {
   text-align: center;
 }
 
-button:hover {
-    
-}
+
 
 .countdown{
   text-align: center;
@@ -160,9 +146,6 @@ button:hover {
 
 
 
-.footer { 
-    
-}
 
 
 
