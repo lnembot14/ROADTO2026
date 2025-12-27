@@ -208,6 +208,10 @@ p.paragraph {
   padding-right: 10px;
 }
 
+#rsvp{
+  padding-left: 10px;
+  text-align: center;
+}
 
 #rsvp-button{
   display: inline-block;
