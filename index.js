@@ -33,7 +33,7 @@ const legacy_button = document.getElementById('rsvp-button')
     }
 
     const newParagraph = document.createElement('p');
-    newParagraph.textContent = "🎟️" + " " + person.name + " " + person.lname + " has cemented his Legacy." ;
+    newParagraph.textContent = "🎟️" + " " + person.name + " " + person.lname + " has cemented their Legacy." ;
 
     const rsvpList = document.querySelector('.participants')
     rsvpList.appendChild(newParagraph);

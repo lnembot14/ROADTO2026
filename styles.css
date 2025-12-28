@@ -190,6 +190,7 @@ p.paragraph {
   gap: 10px; /* spacing between inputs and button */
   flex-wrap: wrap;
   margin-left: 325px;
+  margin-bottom: 35px;
 }
 .rsvp-container{
   display: flex;
@@ -202,6 +203,7 @@ p.paragraph {
 .rsvp-para{
   width: 55%;
   padding-right: 10px;
+  font-size: 20px;
 }
 
 .rsvp-participants{
