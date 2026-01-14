@@ -186,11 +186,13 @@ p.paragraph {
 }
 .form-container{
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 10px; /* spacing between inputs and button */
   flex-wrap: wrap;
-  margin-left: 325px;
-  margin-bottom: 35px;
+  padding: 40px;
+  padding-top: 10px;
+
 }
 .rsvp-container{
   display: flex;
