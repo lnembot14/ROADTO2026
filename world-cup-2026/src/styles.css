@@ -121,7 +121,7 @@ p.paragraph {
 }
 
 .header-item:nth-of-type(1){
-  border-right: 2px solid lightgreen;
+  border-right: 2px solid orange;
   padding:10px;
 }
 
@@ -135,13 +135,22 @@ p.paragraph {
   margin-left: 15px;
 }
 
+.header-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
 .header-button{
   padding-top: 10px;
   padding-bottom: 10px;
-  background: linear-gradient(135deg, #00A651, #FFD700);
+  background: gold;
   font-family: 'Oswald', sans-serif;
   cursor: pointer;
   font-size: large;
+  color: #1E293B;
+  font-weight: bold;
 }
 
 

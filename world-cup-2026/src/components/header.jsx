@@ -8,7 +8,7 @@ function Header(){
                 <h1>ROADTO2026</h1>
                 <h2>U.S.A, Canada, Mexico: Destination,<span id= "special-character"> Futbol.</span> </h2>
             </div>
-            <div className = "header-item">
+            <div className = "header-items">
                 <button className = "header-button">About</button>
                 <button className = "header-button">Reminder Sign Up</button>
             </div>
