@@ -12,7 +12,7 @@ function Email() {
             <p>🎟️ Tobin Montreal has cemented their Legacy</p>
         </div>
         </div>
-    </div>
+    </div> 
     </>
   )
 }

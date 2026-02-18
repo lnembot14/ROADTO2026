@@ -1,3 +1,5 @@
+import Button from "./button";
+
 function Header(){
     return (
          <div className = "header-container">
@@ -9,8 +11,8 @@ function Header(){
                 <h2>U.S.A, Canada, Mexico: Destination,<span id= "special-character"> Futbol.</span> </h2>
             </div>
             <div className = "header-items">
-                <button className = "header-button">About</button>
-                <button className = "header-button">Reminder Sign Up</button>
+                <Button text="About" color="gold" />
+                <Button text="Reminder Sign Up" color="gold" />
             </div>
         </div>
     )
