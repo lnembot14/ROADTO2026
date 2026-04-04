@@ -1,0 +1,23 @@
+.image-slider-img{
+    width: 470px;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.image-slider-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
