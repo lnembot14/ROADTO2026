@@ -32,13 +32,6 @@ function Email() {
         <p>Do you want to be the first to know about everyhting #WORLDCUP2026? If so, you need to join our legacy email list. Once signed up you'll get access to exclusives like reduced ticket prices, meal plans and tourist attractions!</p>
         <form onSubmit={handleSubmit}>
           <input
-            type="email"
-            placeholder="Enter your email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-          <input
             type="text"
             placeholder="Enter your first name"
             value={firstName}
@@ -50,6 +43,13 @@ function Email() {
             placeholder="Enter your last name"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
+            required
+          />
+          <input
+            type="email"
+            placeholder="Enter your email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             required
           />
           <button type="submit">Join List</button>
