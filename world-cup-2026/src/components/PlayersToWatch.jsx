@@ -1,10 +1,21 @@
-
-
-function playersToWatch() {
+import "./PlayersToWatch.css";
+function PlayersToWatch() {
     return (
+        <>
         <div>
             <h2>Players to Watch</h2>
             <p>As the world gears up for the 2026 FIFA World Cup, fans and analysts alike are buzzing with excitement about the players to watch in this highly anticipated tournament. With a blend of seasoned veterans and emerging talents, the 2026 World Cup promises to showcase some of the best footballing skills on the global stage.</p>
         </div>
+        <div className= "players-list">
+            <div className= "player-card"> Kylian Mbappe </div>
+            <div className= "player-card"> Erling Haaland </div>
+            <div className= "player-card"> Lamine Yamal</div>
+            <div className= "player-card"> Lionel Messi </div>
+            <div className= "player-card"> Cristiano Ronaldo </div>
+            <div className= "player-card"> Vincius Junior </div>
+        </div>
+        </>
     )
 }
+
+export default PlayersToWatch
