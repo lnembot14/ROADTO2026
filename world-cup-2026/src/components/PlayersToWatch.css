@@ -6,18 +6,56 @@
     justify-content: center;
     border-radius: 10px;
     padding: 20px;
-    background-color: #f0f0f0;
     max-width: 750px;
     margin: 0 auto;
 }
 
 .player-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 15px;
-    width: 150px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease-in-out;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.players-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.players-list a:visited,
+.players-list a:hover,
+.players-list a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+#mbappe {
+    background-color: blue;
+}
+
+#haaland {
+    background-color: rgba(171, 36, 36, 0.885);
+}
+
+#yamal {
+    background-color:red;
+}
+
+#messi {
+    background-color: #3fadc9;
+}
+
+#kane {
+    background-color: rgb(255, 255, 255);
+}
+
+#vincius {
+    background-color: yellow;
 }
