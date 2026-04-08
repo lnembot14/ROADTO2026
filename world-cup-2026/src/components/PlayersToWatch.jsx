@@ -10,22 +10,22 @@ function PlayersToWatch() {
         </div>
         <div className= "players-list">
             <Link to="/players/mbappe">
-                <div className= "player-card" id="mbappe"> Kylian Mbappe </div>
+                <div className= "player-card" id="mbappe"> <p className = "rotated-text">Kylian Mbappe</p> </div>
             </Link>
             <Link to="/players/haaland">
-                <div className= "player-card" id="haaland"> Erling Haaland </div>
+                <div className= "player-card" id="haaland"> <p className = "rotated-text">Erling Haaland</p> </div>
             </Link>
             <Link to="/players/yamal">
-                <div className= "player-card" id="yamal"> Lamine Yamal</div>
+                <div className= "player-card" id="yamal"> <p className = "rotated-text">Lamine Yamal</p></div>
             </Link>
             <Link to="/players/messi">
-                <div className= "player-card" id="messi"> Lionel Messi </div>
+                <div className= "player-card" id="messi"> <p className = "rotated-text">Lionel Messi</p> </div>
             </Link>
             <Link to="/players/kane">
-                <div className= "player-card" id="kane"> Harry Kane </div>
+                <div className= "player-card" id="kane"> <p className = "rotated-text">Harry Kane</p> </div>
             </Link>
             <Link to="/players/vincius">
-                <div className= "player-card" id="vincius"> Vincius Junior </div>
+                <div className= "player-card" id="vincius"> <p className = "rotated-text">Vincius Junior</p> </div>
             </Link>
         </div>
         </>
