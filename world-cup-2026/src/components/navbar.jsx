@@ -2,10 +2,10 @@ function Navbar(){
     return (
         <div className ="navbar">
     <ul>
-        <li><a href="cities.html">Cities</a></li>
-        <li><a href="stadiums.html">Stadiums</a></li>
-        <li><a href="timeline.html">Timeline</a></li>
-        <li><a href="/PlayersToWatch">Players</a></li>
+        <li><Link to="/Cities">Cities </Link></li>
+        <li><Link to ="/Stadiums">Stadiums </Link></li>
+        <li><Link to ="/Timeline">Timeline</Link></li>
+        <li><Link to ="/PlayersToWatch">Players</Link></li>
         <li><button id="theme-button" >Toggle Mode</button></li>
         </ul>
     </div>
