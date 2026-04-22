@@ -2,7 +2,8 @@ import { useEffect, useState } from "react"
 
 const Countdown = ({targetMS}) => {
   const getTimeLeft = () => Math.max(targetMS - Date.now(), 0);
-  const[time, setTime] = useState(getTimeLeft)
+  const[time, setTime] = useState(() => Math.max(targetMS - Date.now(), 0));
+
 
   useEffect(() =>{
     setInterval(()=>{
