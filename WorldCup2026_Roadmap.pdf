@@ -1,0 +1,318 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 3007 >>
+stream
+BT
+/F2 22 Tf
+1 0 0 1 54 738 Tm
+(World Cup 2026 Project Roadmap) Tj
+/F1 11 Tf
+1 0 0 1 54 700 Tm
+(Recommended next feature: Player detail pages) Tj
+/F1 11 Tf
+1 0 0 1 54 679 Tm
+(Why this is the best next step: your app already links to player detail routes,) Tj
+1 0 0 1 54 664 Tm
+(but those routes do not exist yet. Building them closes a real product gap while) Tj
+1 0 0 1 54 649 Tm
+(teaching routing, reusable data structures, dynamic pages, and component) Tj
+1 0 0 1 54 634 Tm
+(composition.) Tj
+/F2 15 Tf
+1 0 0 1 54 613 Tm
+(4-Week Roadmap) Tj
+/F2 12 Tf
+1 0 0 1 54 587 Tm
+(Week 1: Stabilize the app structure) Tj
+/F1 11 Tf
+1 0 0 1 54 565 Tm
+(Goal: make the project feel like one React app instead of part React and part) Tj
+1 0 0 1 54 550 Tm
+(static HTML.) Tj
+/F1 11 Tf
+1 0 0 1 54 529 Tm
+(\267) Tj
+1 0 0 1 68 529 Tm
+(Move Cities, Stadiums, and Timeline into React routes instead of separate) Tj
+1 0 0 1 68 514 Tm
+(HTML pages.) Tj
+/F1 11 Tf
+1 0 0 1 54 493 Tm
+(\267) Tj
+1 0 0 1 68 493 Tm
+(Replace plain anchor tags for internal navigation with Link or NavLink.) Tj
+/F1 11 Tf
+1 0 0 1 54 472 Tm
+(\267) Tj
+1 0 0 1 68 472 Tm
+(Fix the countdown interval cleanup.) Tj
+/F1 11 Tf
+1 0 0 1 54 451 Tm
+(\267) Tj
+1 0 0 1 68 451 Tm
+(Move hardcoded content into small data files where possible.) Tj
+/F1 11 Tf
+1 0 0 1 54 430 Tm
+(\267) Tj
+1 0 0 1 68 430 Tm
+(Put EmailJS keys into environment variables instead of keeping them inline) Tj
+1 0 0 1 68 415 Tm
+(in the component.) Tj
+/F1 11 Tf
+1 0 0 1 54 394 Tm
+(Learning focus: React Router basics, useEffect cleanup, component vs data) Tj
+1 0 0 1 54 379 Tm
+(separation, and environment variables.) Tj
+/F1 11 Tf
+1 0 0 1 54 358 Tm
+(Definition of done: all main navigation works inside React, there are no broken) Tj
+1 0 0 1 54 343 Tm
+(internal links, and lint is clean.) Tj
+/F2 12 Tf
+1 0 0 1 54 322 Tm
+(Week 2: Build the player detail system) Tj
+/F1 11 Tf
+1 0 0 1 54 300 Tm
+(Goal: turn Players to Watch into a complete feature, not just a gallery.) Tj
+/F1 11 Tf
+1 0 0 1 54 279 Tm
+(\267) Tj
+1 0 0 1 68 279 Tm
+(Create a players data file with each player's slug, image, country, club,) Tj
+1 0 0 1 68 264 Tm
+(position, and short profile.) Tj
+/F1 11 Tf
+1 0 0 1 54 243 Tm
+(\267) Tj
+1 0 0 1 68 243 Tm
+(Add a dynamic route like /players/:slug.) Tj
+/F1 11 Tf
+1 0 0 1 54 222 Tm
+(\267) Tj
+1 0 0 1 68 222 Tm
+(Build one reusable player detail page component.) Tj
+/F1 11 Tf
+1 0 0 1 54 201 Tm
+(\267) Tj
+1 0 0 1 68 201 Tm
+(Show a not-found state for invalid slugs.) Tj
+/F1 11 Tf
+1 0 0 1 54 180 Tm
+(\267) Tj
+1 0 0 1 68 180 Tm
+(Add a back link and optional next-player navigation.) Tj
+/F1 11 Tf
+1 0 0 1 54 159 Tm
+(Learning focus: route params, rendering from data, reusable page templates, and) Tj
+1 0 0 1 54 144 Tm
+(handling missing states.) Tj
+/F1 11 Tf
+1 0 0 1 54 123 Tm
+(Definition of done: every player card opens a working detail page, and adding a) Tj
+1 0 0 1 54 108 Tm
+(new player only requires updating the data file.) Tj
+/F2 12 Tf
+1 0 0 1 54 87 Tm
+(Week 3: Add one strong fan feature) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3149 >>
+stream
+BT
+/F1 11 Tf
+1 0 0 1 54 738 Tm
+(Recommended pick: Favorites saved to localStorage.) Tj
+/F1 11 Tf
+1 0 0 1 54 717 Tm
+(Why: it is learnable, makes the app interactive, and teaches state, persistence,) Tj
+1 0 0 1 54 702 Tm
+(and user-centered product thinking.) Tj
+/F1 11 Tf
+1 0 0 1 54 681 Tm
+(\267) Tj
+1 0 0 1 68 681 Tm
+(Let users favorite players.) Tj
+/F1 11 Tf
+1 0 0 1 54 660 Tm
+(\267) Tj
+1 0 0 1 68 660 Tm
+(Persist favorites after refresh with localStorage.) Tj
+/F1 11 Tf
+1 0 0 1 54 639 Tm
+(\267) Tj
+1 0 0 1 68 639 Tm
+(Add a simple favorites section or page.) Tj
+/F1 11 Tf
+1 0 0 1 54 618 Tm
+(Learning focus: local state vs persisted state, localStorage, and deriving UI from) Tj
+1 0 0 1 54 603 Tm
+(saved data.) Tj
+/F1 11 Tf
+1 0 0 1 54 582 Tm
+(Definition of done: favorites persist after refresh and are visible in the UI.) Tj
+/F2 12 Tf
+1 0 0 1 54 561 Tm
+(Week 4: Polish and ship) Tj
+/F1 11 Tf
+1 0 0 1 54 539 Tm
+(Goal: make the product presentable and reliable.) Tj
+/F1 11 Tf
+1 0 0 1 54 518 Tm
+(\267) Tj
+1 0 0 1 68 518 Tm
+(Improve responsive layout, especially the slider and player cards.) Tj
+/F1 11 Tf
+1 0 0 1 54 497 Tm
+(\267) Tj
+1 0 0 1 68 497 Tm
+(Add loading, success, and error states to the email form.) Tj
+/F1 11 Tf
+1 0 0 1 54 476 Tm
+(\267) Tj
+1 0 0 1 68 476 Tm
+(Improve accessibility: button labels, alt text review, and keyboard) Tj
+1 0 0 1 68 461 Tm
+(navigation.) Tj
+/F1 11 Tf
+1 0 0 1 54 440 Tm
+(\267) Tj
+1 0 0 1 68 440 Tm
+(Clean up text typos and naming consistency.) Tj
+/F1 11 Tf
+1 0 0 1 54 419 Tm
+(\267) Tj
+1 0 0 1 68 419 Tm
+(Write a stronger README with features, stack, screenshots, and what you) Tj
+1 0 0 1 68 404 Tm
+(learned.) Tj
+/F1 11 Tf
+1 0 0 1 54 383 Tm
+(\267) Tj
+1 0 0 1 68 383 Tm
+(Deploy the app and treat the deployed version as the real milestone.) Tj
+/F1 11 Tf
+1 0 0 1 54 362 Tm
+(Learning focus: responsive CSS, accessibility fundamentals, product polish, and) Tj
+1 0 0 1 54 347 Tm
+(deployment workflow.) Tj
+/F1 11 Tf
+1 0 0 1 54 326 Tm
+(Definition of done: the mobile experience is solid, the main features feel) Tj
+1 0 0 1 54 311 Tm
+(intentional, and the project is deployed and shareable.) Tj
+/F2 15 Tf
+1 0 0 1 54 290 Tm
+(How to use AI without letting it carry the project) Tj
+/F1 11 Tf
+1 0 0 1 54 264 Tm
+(\267) Tj
+1 0 0 1 68 264 Tm
+(Use AI for explanations, debugging help, code review, and tradeoff) Tj
+1 0 0 1 68 249 Tm
+(analysis.) Tj
+/F1 11 Tf
+1 0 0 1 54 228 Tm
+(\267) Tj
+1 0 0 1 68 228 Tm
+(Avoid asking AI to build whole features before you try.) Tj
+/F1 11 Tf
+1 0 0 1 54 207 Tm
+(\267) Tj
+1 0 0 1 68 207 Tm
+(Do not keep code you cannot explain line by line.) Tj
+/F1 11 Tf
+1 0 0 1 54 186 Tm
+(\267) Tj
+1 0 0 1 68 186 Tm
+(A good pattern: try first, get stuck, ask one narrow question, implement) Tj
+1 0 0 1 68 171 Tm
+(the fix yourself, then explain what changed.) Tj
+/F2 15 Tf
+1 0 0 1 54 150 Tm
+(Best build habit) Tj
+/F1 11 Tf
+1 0 0 1 54 124 Tm
+(For each feature: define the user outcome in one sentence, sketch the components,) Tj
+1 0 0 1 54 109 Tm
+(routes, and data you need, build the smallest version that works, test it) Tj
+1 0 0 1 54 94 Tm
+(manually, then ask AI for review or explanation after you have code.) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 508 >>
+stream
+BT
+/F2 15 Tf
+1 0 0 1 54 738 Tm
+(Best next task) Tj
+/F1 11 Tf
+1 0 0 1 54 712 Tm
+(\267) Tj
+1 0 0 1 68 712 Tm
+(Create a playersData file.) Tj
+/F1 11 Tf
+1 0 0 1 54 691 Tm
+(\267) Tj
+1 0 0 1 68 691 Tm
+(Add a /players/:slug route.) Tj
+/F1 11 Tf
+1 0 0 1 54 670 Tm
+(\267) Tj
+1 0 0 1 68 670 Tm
+(Build one PlayerDetail component.) Tj
+/F1 11 Tf
+1 0 0 1 54 649 Tm
+(\267) Tj
+1 0 0 1 68 649 Tm
+(Make all player cards use that route.) Tj
+/F1 11 Tf
+1 0 0 1 54 628 Tm
+(\267) Tj
+1 0 0 1 68 628 Tm
+(Add a not-found state.) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Count 3 /Kids [4 0 R 6 0 R 8 0 R] >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000003213 00000 n 
+0000003349 00000 n 
+0000006550 00000 n 
+0000006686 00000 n 
+0000007245 00000 n 
+0000007381 00000 n 
+0000007450 00000 n 
+trailer
+<< /Size 11 /Root 10 0 R >>
+startxref
+7500
+%%EOF

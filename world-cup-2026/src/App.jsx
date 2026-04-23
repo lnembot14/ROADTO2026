@@ -1,19 +1,22 @@
 import './App.css'
-import Header from './components/header'
-import Navbar from './components/navbar'
-import Countdown from './components/countdown'
-import Email from './components/email'
-import Gallery from './components/gallery'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import PlayersToWatch from './components/PlayersToWatch'
+import Stadiums from './components/Stadiums'
+import HomePage from './components/HomePage'
+import Timeline from './components/timeline';
+import Cities from './components/Cities'
 
 function App() {
   return (
-      <div className="App"> 
-        <Header />
-        <Navbar />
-        <Countdown targetMS={new Date("2026-06-11T00:00:00").getTime()}/>
-        <Gallery />
-        <Email />
-      </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/PlayersToWatch" element={<PlayersToWatch />} />
+        <Route path="/Cities" element={< Cities />} />
+        <Route path="/Stadiums" element={< Stadiums />} />
+        <Route path="/Timeline" element={< Timeline />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
