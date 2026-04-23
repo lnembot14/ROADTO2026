@@ -9,6 +9,7 @@ const Countdown = ({targetMS}) => {
     setInterval(()=>{
       setTime(getTimeLeft())
     }, 1000)
+    return () => clearInterval(interval)
   }, [targetMS])
 
   const getFormattedTime = (Milloseconds) =>{
