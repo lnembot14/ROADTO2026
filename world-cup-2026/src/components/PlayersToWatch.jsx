@@ -11,11 +11,11 @@ const vincius_image = "/images/vini-img.jpg"
 
 const players = [
     {
-        Player: "Mbappe",
-        Country: "France",
-        Team : "Real Madrid",
-        Position: "Forward",
-        Bio: "Most Dangerous Forward in the world..."
+        player: "Mbappe",
+        country: "France",
+        team : "Real Madrid",
+        position: "Forward",
+        bio: "Most Dangerous Forward in the world..."
     }
 ]
 
