@@ -9,6 +9,17 @@ const messi_image = "/images/messi(1)-img.jpg"
 const kane_image = "/images/kane(2)-img.avif"
 const vincius_image = "/images/vini-img.jpg"
 
+const players = [
+    {
+        Player: "Mbappe",
+        Country: "France",
+        Team : "Real Madrid",
+        Position: "Forward",
+        Bio: "Most Dangerous Forward in the world..."
+    }
+]
+
+
 function PlayersToWatch() {
     return (
         <>
