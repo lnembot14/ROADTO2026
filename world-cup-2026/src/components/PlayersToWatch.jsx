@@ -11,13 +11,61 @@ const vincius_image = "/images/vini-img.jpg"
 
 const players = [
     {
-        player: "Mbappe",
+        player: "mbappe",
         country: "France",
         team : "Real Madrid",
+        img : mbappe_image,
         position: "Forward",
         bio: "Most Dangerous Forward in the world..."
-    }
+    },
+
+    {
+        player: "haaland",
+        country: "Norway",
+        team : "Manchester City",
+        img : haaland_image,
+        position: "Forward",
+        bio: "The most devestating forward in the world"
+    },
+
+    {
+        player: "yamal",
+        country: "Spain",
+        team : "Barcelona",
+        img : yamal_image,
+        position: "Forward",
+        bio: "Teenage King"
+    },
+
+    {
+        player: "Messi",
+        country: "Argentina",
+        team : "Inter Miami",
+        img : messi_image,
+        position: "Forward",
+        bio: "The Greatest of All Time"
+    },
+
+    {
+        player: "Kane",
+        country: "England",
+        team : "Bayern Munich",
+        img : kane_image,
+        position: "Forward",
+        bio: "Best Striker in the World"
+    },
+
+    {
+        player: "Vinicius",
+        country: "Brazil",
+        team : "Real Madrid",
+        img : vincius_image,
+        position: "Forward",
+        bio: "Brazil's Main Man"
+    },
+
 ]
+
 
 
 function PlayersToWatch() {
@@ -29,7 +77,7 @@ function PlayersToWatch() {
         </div>
         <div className= "players-list">
             <Link to="/players/mbappe">
-                <div className= "player-card" id="mbappe"> <img src = {mbappe_image} alt="Kylian Mbappe" className= "player-image" /> <p className = "player-name">Kylian Mbappe</p> </div>
+                <div className= "player-card" id="mbappe"> <img src = {player["img"]} alt="Kylian Mbappe" className= "player-image" /> <p className = "player-name">{player["name"]}</p> </div>
             </Link>
             <Link to="/players/haaland">
                 <div className= "player-card" id="haaland"> <img src = {haaland_image} alt="Erling Haaland" className= "player-image" /> <p className = "player-name">Erling Haaland</p> </div>
