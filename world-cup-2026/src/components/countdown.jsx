@@ -6,7 +6,7 @@ const Countdown = ({targetMS}) => {
 
 
   useEffect(() =>{
-    setInterval(()=>{
+    const interval = setInterval(()=>{
       setTime(getTimeLeft())
     }, 1000)
     return () => clearInterval(interval)
