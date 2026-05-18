@@ -77,7 +77,7 @@ function PlayersToWatch() {
         </div>
         <div className= "players-list">
             <Link to="/players/mbappe">
-                <div className= "player-card" id="mbappe"> <img src = {player["img"]} alt="Kylian Mbappe" className= "player-image" /> <p className = "player-name">{player["name"]}</p> </div>
+                <div className= "player-card" id="mbappe"> <img src = {mbappe_image} alt="Kylian Mbappe" className= "player-image" /> <p className = "player-name">Kylian Mbappe</p> </div>
             </Link>
             <Link to="/players/haaland">
                 <div className= "player-card" id="haaland"> <img src = {haaland_image} alt="Erling Haaland" className= "player-image" /> <p className = "player-name">Erling Haaland</p> </div>
