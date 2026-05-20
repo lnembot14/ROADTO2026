@@ -1,13 +1,13 @@
 import "./Modal.css";
 
-function Modal({ isOpen }) {
+function Modal({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return (
     <div className="modal">
       <div className="overlay"></div>
-
       <div className="modal-content">
+        <button onClick={onClose}>X</button>
         <h2>Hello World</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
