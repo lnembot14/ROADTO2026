@@ -34,6 +34,12 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
+.player-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
 
 .players-list a {
   text-decoration: none;
