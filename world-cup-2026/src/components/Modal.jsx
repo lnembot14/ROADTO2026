@@ -10,6 +10,9 @@ function Modal({ isOpen, player, onClose }) {
         <button className= "player-modal-close-button" onClick={onClose}>X</button>
         <h2> {player.player} </h2>
         <p> {player.bio} </p>
+        <p> {player.position}</p>
+        <p> {player.country} </p>
+        <p> {player.team} </p>
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ const players = [
         country: "France",
         team : "Real Madrid",
         img : mbappe_image,
-        position: "Forward",
+        position: "Striker",
         bio: "Most Dangerous Forward in the world..."
     },
 
@@ -25,7 +25,7 @@ const players = [
         country: "Norway",
         team : "Manchester City",
         img : haaland_image,
-        position: "Forward",
+        position: "Striker",
         bio: "The most devestating forward in the world"
     },
 
@@ -34,7 +34,7 @@ const players = [
         country: "Spain",
         team : "Barcelona",
         img : yamal_image,
-        position: "Forward",
+        position: "Winger",
         bio: "Teenage King"
     },
 
@@ -52,7 +52,7 @@ const players = [
         country: "England",
         team : "Bayern Munich",
         img : kane_image,
-        position: "Forward",
+        position: "Striker",
         bio: "Best Striker in the World"
     },
 
@@ -61,7 +61,7 @@ const players = [
         country: "Brazil",
         team : "Real Madrid",
         img : vincius_image,
-        position: "Forward",
+        position: "Winger",
         bio: "Brazil's Main Man"
     },
 ]
