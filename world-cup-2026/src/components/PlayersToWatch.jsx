@@ -15,55 +15,79 @@ const players = [
         player: "Kylian Mbappe",
         country: "France",
         team : "Real Madrid",
+        description: "A world-class forward known for his explosive pace, sharp finishing, and ability to create danger from almost anywhere on the pitch. Mbappé is especially dangerous in transition, using his speed and movement to break defensive lines and score in big moments.",
         img : mbappe_image,
         position: "Striker",
-        bio: "Most Dangerous Forward in the world..."
+        bio: '"Dictator"',
+        matches: 43,
+        goals: 41,
+        assists: 7
     },
 
     {
         player: "Erling Haaland",
         country: "Norway",
         team : "Manchester City",
+        description: "A dominant striker known for his power, positioning, and elite goal-scoring instincts. Haaland thrives inside the box, using his strength, speed, and clinical finishing to punish defenses and consistently score goals.",
         img : haaland_image,
         position: "Striker",
-        bio: "The most devestating forward in the world"
+        bio: '"The Terminator"',
+        matches: 52,
+        goals: 38,
+        assists: 9
     },
 
     {
         player: "Lamine Yamal",
         country: "Spain",
         team : "Barcelona",
+        description: "Football's most exciting young talent, Yamal is a creative winger with quick feet, excellent dribbling, and strong decision-making for his age. He is known for taking on defenders, creating chances, and bringing flair to the attack.",
         img : yamal_image,
         position: "Winger",
-        bio: "Teenage King"
+        bio: '"Teenage King"',
+        matches: 45,
+        goals: 24,
+        assists: 18
     },
 
     {
         player: "Lionel Messi",
         country: "Argentina",
         team : "Inter Miami",
+        description: "One of the greatest players in football history, Messi is known for his magical dribbling, vision, passing, and finishing. He can control the tempo of a game, create chances for teammates, and score with incredible precision.",
         img : messi_image,
         position: "Forward",
-        bio: "The Greatest of All Time"
+        bio: '"The G.O.A.T."',
+        matches: 15,
+        goals: 13,
+        assists: 5
     },
 
     {
         player: "Harry Kane",
         country: "England",
         team : "Bayern Munich",
+        description: "A complete striker known for his intelligent movement, finishing ability, and playmaking from deeper positions. Kane is not only a reliable goal scorer but also excellent at linking play and creating opportunities for teammates.",
         img : kane_image,
         position: "Striker",
-        bio: "Best Striker in the World"
+        bio: '"Mr. Golden Boot"',
+        matches: 50,
+        goals: 58,
+        assists: 7
     },
 
     {
         player: "Vinicius Junior",
         country: "Brazil",
         team : "Real Madrid",
+        description: "An electric winger known for his speed, dribbling, creativity, and confidence in one-on-one situations. Vinícius Jr. constantly challenges defenders, creates attacking chances, and brings energy and flair to the left side of the pitch.",
         img : vincius_image,
         position: "Winger",
-        bio: "Brazil's Main Man"
-    },
+        bio: '"Baila Vini!"',
+        matches: 53,
+        goals: 22,
+        assists: 14
+    }
 ]
 
 
