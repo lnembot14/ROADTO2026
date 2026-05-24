@@ -15,11 +15,11 @@ export function ImageSlider({ pictures }) {
     return <><div style ={{ width: "100%", height: "100%"}} className="image-slider">
         <img src={pictures[currentIndex]} className="image-slider-img"/>
         </div>
-        <div className="image-slider-buttons">
-            <button onClick={() => setCurrentIndex((prev) => (prev === 0 ? pictures.length - 1 : prev - 1))}>
+        <div className="slider-buttons">
+            <button className = "slider-btn" onClick={() => setCurrentIndex((prev) => (prev === 0 ? pictures.length - 1 : prev - 1))}>
                 &#8592;
             </button>
-            <button onClick={() => setCurrentIndex((prev) => (prev === pictures.length - 1 ? 0 : prev + 1))}>
+            <button className="slider-btn" onClick={() => setCurrentIndex((prev) => (prev === pictures.length - 1 ? 0 : prev + 1))}>
                 &#8594;
             </button>
         </div>

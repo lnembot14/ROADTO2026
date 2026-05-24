@@ -1,5 +1,6 @@
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
+import "./pictureSlider.css"
 
 
 function Email() {
@@ -52,7 +53,7 @@ function Email() {
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-          <button type="submit">Join List</button>
+          <button className="slider-btn" type="submit">Join List</button>
         </form>
         </div>
     </div> 

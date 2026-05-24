@@ -15,10 +15,28 @@
     gap: 20px;
 }
 
-.image-slider-buttons{
+.slider-buttons{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
+    justify-content: center;
+}
+
+.slider-btn{
+  display: inline-block;
+  margin-top: 35px;
+  padding: 12px 28px;
+
+  background-color: #ffd000;
+  color: #001f54;
+
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+
+  border: 2px solid #ffd000;
+  border-radius: 999px;
+
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  transition: all 0.25s ease;
+  gap: 20px;
 }
