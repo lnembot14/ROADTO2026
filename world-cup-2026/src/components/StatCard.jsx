@@ -1,11 +1,14 @@
+import "./StatCard.css"
 
-function StatCard({icon, label, value}) {
+
+function StatCard({icon, label, subtext, value}) {
     return(
         <>
-            <div>
+            <div className="Card-boxes">
                 <h2>{icon}</h2>
+                <h2>{value}</h2>
                 <p>{label}</p>
-                <p>{value}</p>
+                <p>{subtext}</p>
             </div>
         </>
     )
