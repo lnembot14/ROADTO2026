@@ -2,13 +2,17 @@ import { tournaments } from "../data/tournaments"
 
 function HistoryPage() {
 
-    
-
     return(
         <>
+            <div>
+                <h1>World Cup History</h1>
+                <p>Every tournament from 1930 to 2022 — champions, records, and the moments that defined the game.</p>
+            </div>
+
             <ul>
-                <li>{tournaments.map(year=>year.year)}</li>
-                <li>{tournaments.map(year=>year.host)}</li>
+                {tournaments.map(tournament=>(
+                    <li>{tournament.year} and {tournament.host}</li>
+                ))}
             </ul>
         </>
     )
