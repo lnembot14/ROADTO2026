@@ -1,4 +1,4 @@
-import { years } from "../data/tournaments"
+import { tournaments } from "../data/tournaments"
 
 function HistoryPage() {
 
@@ -7,7 +7,8 @@ function HistoryPage() {
     return(
         <>
             <ul>
-                <li>{years.map(year=>year.goldenBall)}</li>
+                <li>{tournaments.map(year=>year.year)}</li>
+                <li>{tournaments.map(year=>year.host)}</li>
             </ul>
         </>
     )
