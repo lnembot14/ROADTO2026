@@ -1,9 +1,14 @@
 import { years } from "../data/tournaments"
 
 function HistoryPage() {
+
+    
+
     return(
         <>
-            <p>{years[0].goldenBall}</p>
+            <ul>
+                <li>{years.map(year=>year.goldenBall)}</li>
+            </ul>
         </>
     )
 }
