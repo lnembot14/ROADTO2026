@@ -21,7 +21,7 @@ function HistoryPage() {
                 <StatCard icon= {<GoTrophy />} value="Brazil" label="Most titles" subtext="5 championships" />
                 <StatCard icon= {<PiSoccerBall />} value="Miroslav Klose" label="Top Scorer" subtext="16 goals" />
                 <StatCard icon= {<CiCalendar />} value={tournaments.length} label="Tournaments" subtext="1930-2022" />
-                <StatCard icon= {<FaRegFlag />} value="80+" label="Nations Competed" subtext="across all editions" />
+                <StatCard icon= {<FaRegFlag />} value="80+" label="Nations Competed" subtext="Across all editions" />
             </div>
 
             <ul>
