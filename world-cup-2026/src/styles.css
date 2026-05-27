@@ -1,16 +1,4 @@
 
-/*** body ***
-  
-  Purpose:
-  - Add style rules for the body of your webpage
-  - This is useful if you want a rule to apply to EVERYTHING on your page
-    - (Tip: You can always override these rules later in the stylesheet)
-
-  When To Modify:
-  - [ ] Project 3 (REQUIRED FEATURE) 
-  - [ ] Any time after
-***/
-
 html, body {
     /* Add a background color or image */
     background-color: whitesmoke; /* see bottom of file for color variables */
@@ -76,8 +64,10 @@ button {
     padding: 5px 12px;          /* space between button's text and edge */
     border-radius: 5px;         /* curved edges instead of square */
     cursor: pointer;            /* makes the cursor change when over button */
-
+    background: transparent;
+    border: none;
 }
+
 
 #title-page{
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
