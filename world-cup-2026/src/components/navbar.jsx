@@ -8,6 +8,7 @@ function Navbar(){
         <li><Link to ="/Stadiums">Stadiums </Link></li>
         <li><Link to ="/HistoryPage">Timeline</Link></li>
         <li><Link to ="/PlayersToWatch">Players</Link></li>
+        <li><Link to="/">Home</Link></li>
         </ul>
     </div>
     
