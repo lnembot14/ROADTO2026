@@ -12,7 +12,7 @@ function HistoryPage() {
     return(
         <>
             <div>
-                <h1>World Cup History</h1>
+                <h1>Histroy of the FIFA World Cup</h1>
                 <p>Every tournament from 1930 to 2022 — champions, records, and the moments that defined the game.</p>
             </div>
 
