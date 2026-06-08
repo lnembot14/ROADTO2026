@@ -4,11 +4,11 @@ function Navbar(){
     return (
         <div className ="navbar">
     <ul>
+        <li><Link to="/">Home</Link></li>
         <li><Link to="/Cities">Cities </Link></li>
         <li><Link to ="/Stadiums">Stadiums </Link></li>
         <li><Link to ="/HistoryPage">Timeline</Link></li>
         <li><Link to ="/PlayersToWatch">Players</Link></li>
-        <li><Link to="/">Home</Link></li>
         </ul>
     </div>
     

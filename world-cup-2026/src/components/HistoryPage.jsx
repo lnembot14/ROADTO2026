@@ -1,5 +1,6 @@
 import { tournaments } from "../data/tournaments"
 import  StatCard  from "./StatCard"
+import TournamentCard from "./TournamentCard";
 import { GoTrophy } from "react-icons/go";
 import { PiSoccerBall } from "react-icons/pi";
 import { CiCalendar } from "react-icons/ci";
@@ -26,7 +27,9 @@ function HistoryPage() {
 
             <ul>
                 {tournaments.map(tournament=>(
-                    <li>{tournament.year} and {tournament.host}</li>
+                    <TournamentCard year = {tournament.year} flag = {tournament.finalScore} host = {tournament.host} 
+                    champions = {tournament.champion} topScorer={tournament.topScorer} runnerUp={tournament.runnerUp}
+                    goldenBall={tournament.goldenBall} finalScore={tournament.finalScore} funFact={tournament.funFact} />
                 ))}
             </ul>
         </>
