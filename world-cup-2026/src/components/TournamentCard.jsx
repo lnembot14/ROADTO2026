@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "./TournamentCard.css"
 
 function TournamentCard({year, flag, host, champions, topScorer, runnerUp, goldenBall, finalScore, funFact}){
 
