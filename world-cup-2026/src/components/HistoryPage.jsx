@@ -25,13 +25,13 @@ function HistoryPage() {
                 <StatCard icon= {<FaRegFlag />} value="80+" label="Nations Competed" subtext="Across all editions" />
             </div>
 
-            <ul>
+            <div className="tournament-cards">
                 {tournaments.map(tournament=>(
                     <TournamentCard year = {tournament.year} flag = {tournament.finalScore} host = {tournament.host} 
                     champions = {tournament.champion} topScorer={tournament.topScorer} runnerUp={tournament.runnerUp}
                     goldenBall={tournament.goldenBall} finalScore={tournament.finalScore} funFact={tournament.funFact} />
                 ))}
-            </ul>
+            </div>
         </>
     )
 }
