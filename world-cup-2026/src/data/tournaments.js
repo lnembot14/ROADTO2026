@@ -7,7 +7,7 @@ export const tournaments = [
         topScorer: "Kylian Mbappé", 
         goldenBall: "Lionel Messi ", 
         finalScore: "3-3 (AET) 4-2 pens",
-        funFact: "First World Cup held in the Middle East..."
+        funFact: "First World Cup held in the Middle East, and the first played in November-December due to the extreme summer heat"
     },
 
     {
