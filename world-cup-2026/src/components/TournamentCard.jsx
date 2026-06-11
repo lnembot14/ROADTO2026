@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./TournamentCard.css"
+import { Bold } from "lucide-react"
 
 function TournamentCard({year, flag, host, champions, topScorer, runnerUp, goldenBall, finalScore, funFact}){
 
@@ -11,19 +12,35 @@ function TournamentCard({year, flag, host, champions, topScorer, runnerUp, golde
             <div onClick={()=>setIsOpen(!isOpen)} className="tournaments-box">
                 <div className="card-header">
                     <h2> Year: {year} </h2>
-                    <h2> {flag} </h2>
                     <h2> Host: {host} </h2>
                     <h2> Champions: {champions} </h2>
                 </div>
-            <div className="expanded-details">
-                {isOpen && <p>Top Scorer {topScorer}</p> }
-                {isOpen && <p>Runner-Up {runnerUp}</p> }
-                {isOpen && <p>Golden Ball {goldenBall}</p> }
-                {isOpen && <p>Final Score {finalScore}</p> }
-            <div className="fun-fact">
-                {isOpen && <p>Fun Fact {funFact}</p>}
-            </div>
-            </div>
+            {isOpen && <div className="expanded-details">
+                <div className="detail-item">
+                    {<p>Top Scorer</p> }
+                    {<p>{topScorer}</p> }
+                </div>
+                <div className="detail-item">
+                    {<p>Runner-Up</p> }
+                    {<p>{runnerUp}</p> }
+                </div>
+                <div className="detail-item">
+                    {<p>Golden Ball</p> }
+                    {<p>{goldenBall}</p> }
+                </div>
+                <div className="detail-item">
+                    <div className="detail-label">
+                        {<p>Final Score</p> }
+                    </div>
+                    <div className="detail-value">
+                        {<p>{finalScore}</p> }
+                    </div>
+                </div>
+                <div className="detail-item">
+                    {<p>Fun Fact</p>}
+                    {<p>{funFact}</p>}
+                </div>
+            </div>}
             </div>
         </>
     )

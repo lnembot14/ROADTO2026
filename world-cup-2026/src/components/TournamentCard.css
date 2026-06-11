@@ -31,5 +31,19 @@
 
 .fun-fact{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+
+.detail-label{
+    color: grey;
+    font-size: 15px;
+}
+
+.detail-value{
+    color: red;
+    font-weight: bold;
 }
