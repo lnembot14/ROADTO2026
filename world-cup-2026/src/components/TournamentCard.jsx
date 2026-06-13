@@ -17,16 +17,28 @@ function TournamentCard({year, flag, host, champions, topScorer, runnerUp, golde
                 </div>
             {isOpen && <div className="expanded-details">
                 <div className="detail-item">
-                    {<p>Top Scorer</p> }
-                    {<p>{topScorer}</p> }
+                    <div className="detail-label">
+                        {<p>Top Scorer</p> }
+                    </div>
+                    <div className="detail-value">
+                        {<p>{topScorer}</p> }
+                    </div>
                 </div>
                 <div className="detail-item">
-                    {<p>Runner-Up</p> }
-                    {<p>{runnerUp}</p> }
+                    <div className="detail-label">
+                        {<p>Runner-Up</p> }
+                    </div>
+                    <div className="detail-value">
+                        {<p>{runnerUp}</p> }
+                    </div>
                 </div>
                 <div className="detail-item">
-                    {<p>Golden Ball</p> }
-                    {<p>{goldenBall}</p> }
+                    <div className="detail-label">
+                        {<p>Golden Ball</p> }
+                    </div>
+                    <div className="detail-value">
+                        {<p>{goldenBall}</p> }
+                    </div>
                 </div>
                 <div className="detail-item">
                     <div className="detail-label">
