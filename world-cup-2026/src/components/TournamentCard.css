@@ -15,12 +15,14 @@
     border-radius: 10px;
     align-items: center;
     gap: 16px;
+    padding: 20px;
 }
 
 .expanded-details{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
+    grid-row: auto;
 }
 
 .card-header{
@@ -29,10 +31,9 @@
     gap: 16px;
 }
 
-.fun-fact{
+.fun-fact-box{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: antiquewhite;
     border-radius: 10px;
 }
@@ -46,4 +47,19 @@
 .detail-value{
     color: red;
     font-weight: bold;
+}
+
+.detail-label-fact{
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.detail-item-fact{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 25px;
+    grid-column: 1 / -1;
+
 }

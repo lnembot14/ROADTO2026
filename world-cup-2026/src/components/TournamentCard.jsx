@@ -48,9 +48,13 @@ function TournamentCard({year, flag, host, champions, topScorer, runnerUp, golde
                         {<p>{finalScore}</p> }
                     </div>
                 </div>
-                <div className="detail-item">
-                    {<p>Fun Fact</p>}
-                    {<p>{funFact}</p>}
+                <div className="detail-item-fact">
+                    <div className="detail-item">
+                        {<p>Fun Fact</p>}
+                    </div>
+                    <div className="detail-value">
+                        {<p>{funFact}</p>}
+                    </div>
                 </div>
             </div>}
             </div>
