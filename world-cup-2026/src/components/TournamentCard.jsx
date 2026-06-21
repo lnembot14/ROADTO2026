@@ -11,9 +11,15 @@ function TournamentCard({year, flag, host, champions, topScorer, runnerUp, golde
         <>
             <div onClick={()=>setIsOpen(!isOpen)} className="tournaments-box">
                 <div className="card-header">
-                    <h2> Year: {year} </h2>
-                    <h2> Host: {host} </h2>
-                    <h2> Champions: {champions} </h2>
+                    <h2>  {year} </h2>
+                    <div className="detail-item">
+                        <div className="detail-value">
+                            <h2> {host} </h2>
+                        </div>
+                        <div className="detail-label">
+                            <h2> {champions} </h2>
+                        </div>
+                    </div>
                 </div>
             {isOpen && <div className="expanded-details">
                 <div className="detail-item">

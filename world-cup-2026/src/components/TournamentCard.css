@@ -13,9 +13,10 @@
     justify-content: space-evenly;
     background-color: white;
     border-radius: 10px;
-    align-items: center;
+    align-items: flex-start;
     gap: 16px;
     padding: 20px;
+    margin-top: 20px;
 }
 
 .expanded-details{
@@ -27,8 +28,8 @@
 
 .card-header{
     display: flex;
-    justify-content: space-around;
-    gap: 16px;
+    justify-content: flex-start;
+    gap: 12px;
 }
 
 .fun-fact-box{
